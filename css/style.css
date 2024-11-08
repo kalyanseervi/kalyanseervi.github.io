@@ -766,3 +766,12 @@ hr {
 
   border: 1px solid var(--bg-black-50);
 }
+/* my css custom */
+
+.skill-title h3{
+  font-size: 25px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 10px;
+}
