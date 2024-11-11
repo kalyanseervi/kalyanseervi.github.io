@@ -73,3 +73,27 @@ function asideSectionTogglerBtn() {
         allSection[i].classList.toggle("open");
     }
 }
+
+var swiper = new Swiper('.swiper-container', {
+    loop: true,
+    effect: 'cube', // Use the cube effect for a 3D look
+    cubeEffect: {
+      shadow: true,
+      slideShadows: true,
+      shadowOffset: 20,
+      shadowScale: 0.94,
+    },
+    autoplay: {
+      delay: 3000, // 3 seconds delay
+      disableOnInteraction: false,
+    },
+    speed: 800, // Adjust transition speed
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
